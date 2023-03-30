@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    background: rgb(8,45,189);
+    background: linear-gradient(90deg, rgba(8,45,189,1) 14%, rgba(78,164,255,1) 79%);
+    border-bottom: 1px solid rgb(8,45,189);
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.kenzie-header {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    font-size: larger;
+    font-weight: 600;
+}
+.kenzie-header:hover {
+    background-color: rgb(0, 0, 179);
+}
+
+.ul-header {
+    color: aliceblue;
+    width: 50%;
+    padding: 1%;
+    font-size:smaller;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+.li-ul {
+    margin: 0%;
+}
+.li-ul:hover {
+    color: rgb(0, 0, 0);
+}
+
+.quero-ser {
+    color: aliceblue;
+    font-weight: 600;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:large;
+}
+.quero-ser:hover {
+    color: rgba(0, 0, 0, 0.644);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.div-main {
+    background-color: rgba(0, 0, 0, 0.068);
+    -webkit-box-align: 2px 2px 26px 0px rgba(0,0,0,0.56);
+    -moz-box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.56);
+    box-shadow: 2px 2px 26px 0px rgba(0,0,0,0.56);;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h-header {
+    color: rgba(240, 248, 255, 0.904);
+    background: rgb(99,90,90);
+    background: linear-gradient(0deg, rgba(99,90,90,0.8995973389355743) 0%, rgba(91,83,83,0.9780287114845938) 9%, rgba(37,37,37,0.9528186274509804) 61%);
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    }
+
+.div-h2 {
+margin: 1%;
+
+}
+
+.hyperlink-h2 {
+    color: blue;
+}
+.hyperlink-h2:hover {
+    color: rgb(9, 9, 153);
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 30px;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+}
